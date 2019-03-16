@@ -8,4 +8,9 @@ setup(
     description="A Django application with Vietnam's provinces/districts/wards",
     packages=find_packages(),    
     install_requires=['Django'],
+    classifiers=[
+        'Framework :: Django',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python',
+    ],
 )
